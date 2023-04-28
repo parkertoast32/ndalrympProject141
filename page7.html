@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gacha Feed: Contact</title>
+    <script src="js/master.js"></script>
+</head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="gacha_feed.png" alt="logo"></a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a class="navbarpadding" href="page2.html">Fate/Grand Order</a></li>
+                    <li><a class="navbarpadding" href="page3.html">Genshin Impact</a></li>
+                    <li><a class="navbarpadding" href="page4.html">Azur Lane</a></li>
+                    <li><a class="navbarpadding" href="page5.html">Blue Archive</a></li>
+                    <li><a class="navbarpadding" href="page6.html">Honkai Star Rail</a></li>
+                </ul>
+            </nav>
+            <a href="page7.html"><button>Newsletter</button></a>
+        </header>
+        <div class="box">
+        <form action="results.html" method="get">
+            <div class="back">
+                <label class="back" for="FirstName">First Name : </label>
+                <input name="FirstName" id="FirstName">
+            </div>
+            <div class="back">
+                <label class="back" for="LastName">Last Name : </label>
+                <input name="LastName" id="LastName">
+            </div>
+            <div class="back">
+                <label class="back" for="PhoneNumber">Phone Number : </label>
+                <input name="PhoneNumber" id="PhoneNumber">
+            </div>
+            <div class="back">
+                <label class="back" for="Email">Email : </label>
+                <input name="Email" id="Email">
+            </div>
+            <div class="back">
+                <label class="back" for="Subscribe to Newsletter">Verify: Subscribe to Newsletter</label>
+                <input type="radio" name="Subscribe to Newsletter" id="Subscribe to Newsletter" value="Subscribed">
+            </div>
+            <button onClick="return isEmpty();">Subscribe</button>
+        </form>
+        
+        </div>
+        <img class="cats" src="E0D379E8-DA2E-4D34-BC80-BDB5E1873BFA.gif" alt="cats">
+    </body>
+</html>
